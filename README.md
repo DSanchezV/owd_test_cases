@@ -743,7 +743,15 @@ TESTS COVERED
   </tr>
 
   <tr>
+    <td  align=center>26769</td><td  align=left>Verify that from any page of the Homescreen (not Lock screen) if you press Home Button you go to Landing Page'</td>
+  </tr>
+
+  <tr>
     <td  align=center>26774</td><td  align=left>Verify that user can click on 'Add more categories' in everything.me grid so I am shown again the list and can add more categories</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26319</td><td  align=left>Moving an application around the homescreen - verify the application could be moved to a new location</td>
   </tr>
 
   <tr>
@@ -760,6 +768,10 @@ TESTS COVERED
 
   <tr>
     <td  align=center>26785</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26785)</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26318</td><td  align=left>Launch homescreen, unlock keypad - verify the homescreen is shown</td>
   </tr>
 
   <tr>
