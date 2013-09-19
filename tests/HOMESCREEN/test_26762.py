@@ -54,12 +54,13 @@ class test_main(GaiaTestCase):
         #
         # Go back to first icon page and put homescreen in edit mode.
         #
-        self.UTILS.scrollHomescreenRight()
-        time.sleep(1)
-
-        x = self.UTILS.getElements(DOM.Home.app_icon_pages, "Icon pages on homescreen")
-        _first_icon = x[0].find_element("xpath", "./ol/li[@class='icon']")
-        self.actions.press(_first_icon).wait(2).release().perform()
+        self.UTILS.putHomeInEditMode()
+#         self.UTILS.scrollHomescreenRight()
+#         time.sleep(1)
+# 
+#         x = self.UTILS.getElements(DOM.Home.app_icon_pages, "Icon pages on homescreen")
+#         _first_icon = x[0].find_element("xpath", "./ol/li[@class='icon']")
+#         self.actions.press(_first_icon).wait(2).release().perform()
         
 
         
