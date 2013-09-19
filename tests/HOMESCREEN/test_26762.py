@@ -57,7 +57,6 @@ class test_main(GaiaTestCase):
         self.UTILS.scrollHomescreenRight()
         time.sleep(1)
 
-        boolOK = False
         x = self.UTILS.getElements(DOM.Home.app_icon_pages, "Icon pages on homescreen")
         _first_icon = x[0].find_element("xpath", "./ol/li[@class='icon']")
         self.actions.press(_first_icon).wait(2).release().perform()
