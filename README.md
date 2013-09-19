@@ -731,7 +731,19 @@ TESTS COVERED
   </tr>
 
   <tr>
+    <td  align=center>26762</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26762)</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26764</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26764)</td>
+  </tr>
+
+  <tr>
     <td  align=center>26779</td><td  align=left>Verify that if no connection available when selecting a category in everything.me the user will be notified about the need to have a network connection to use this functionality</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26769</td><td  align=left>Verify that from any page of the Homescreen (not Lock screen) if you press Home Button you go to Landing Page'</td>
   </tr>
 
   <tr>
@@ -739,7 +751,15 @@ TESTS COVERED
   </tr>
 
   <tr>
+    <td  align=center>26319</td><td  align=left>Moving an application around the homescreen - verify the application could be moved to a new location</td>
+  </tr>
+
+  <tr>
     <td  align=center>26782</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26782)</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26763</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26763)</td>
   </tr>
 
   <tr>
@@ -748,6 +768,10 @@ TESTS COVERED
 
   <tr>
     <td  align=center>26785</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26785)</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26318</td><td  align=left>Launch homescreen, unlock keypad - verify the homescreen is shown</td>
   </tr>
 
   <tr>
@@ -763,7 +787,15 @@ TESTS COVERED
   </tr>
 
   <tr>
+    <td  align=center>26766</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26766)</td>
+  </tr>
+
+  <tr>
     <td  align=center>26770</td><td  align=left>launch the everything.me page and click on the first category displayed</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26765</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26765)</td>
   </tr>
 
   <tr>

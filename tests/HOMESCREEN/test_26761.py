@@ -32,32 +32,35 @@ class test_main(GaiaTestCase):
         self.UTILS.reportResults()
         
     def test_run(self):
-        
+
+        _page1 = (DOM.Home.app_icon_pages[0], DOM.Home.app_icon_pages[1] + "[1]")
+        _page2 = (DOM.Home.app_icon_pages[0], DOM.Home.app_icon_pages[1] + "[2]")
+                
         self.UTILS.goHome()
 
         self.UTILS.scrollHomescreenRight()
         time.sleep(1)
         x = self.UTILS.screenShotOnErr()
         self.UTILS.logResult("info", "Scrolling left:", x)
-        self.UTILS.waitForElements(("xpath", "//div[@id='icongrid']//div[@class='page'][1]"), "Icon page 1", True, 1, False)
+        self.UTILS.waitForElements(_page1, "Icon page 1", True, 1, False)
         
         self.UTILS.scrollHomescreenRight()
         time.sleep(1)
         x = self.UTILS.screenShotOnErr()
         self.UTILS.logResult("info", "Scrolling left again:", x)
-        self.UTILS.waitForElements(("xpath", "//div[@id='icongrid']//div[@class='page'][2]"), "Icon page 2", True, 1, False)
+        self.UTILS.waitForElements(_page2, "Icon page 2", True, 1, False)
         
         self.UTILS.scrollHomescreenLeft()
         time.sleep(1)
         x = self.UTILS.screenShotOnErr()
         self.UTILS.logResult("info", "Un-scrolling:", x)
-        self.UTILS.waitForElements(("xpath", "//div[@id='icongrid']//div[@class='page'][1]"), "Icon page 1", True, 1, False)
-        self.UTILS.waitForNotElements(("xpath", "//div[@id='icongrid']//div[@class='page'][2]"), "Icon page 2", True, 1, False)
+        self.UTILS.waitForElements(_page1, "Icon page 1", True, 1, False)
+        self.UTILS.waitForNotElements(_page2, "Icon page 2", True, 1, False)
         
         self.UTILS.scrollHomescreenLeft()
         time.sleep(1)
         x = self.UTILS.screenShotOnErr()
         self.UTILS.logResult("info", "Un-scrolling again (back to home page):", x)
-        self.UTILS.waitForNotElements(("xpath", "//div[@id='icongrid']//div[@class='page'][1]"), "Icon page 1", True, 1, False)
-        self.UTILS.waitForNotElements(("xpath", "//div[@id='icongrid']//div[@class='page'][2]"), "Icon page 2", True, 1, False)
+        self.UTILS.waitForNotElements(_page1, "Icon page 1", True, 1, False)
+        self.UTILS.waitForNotElements(_page2, "Icon page 2", True, 1, False)
         
