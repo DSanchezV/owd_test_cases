@@ -55,14 +55,6 @@ class test_main(GaiaTestCase):
         # Go back to first icon page and put homescreen in edit mode.
         #
         self.UTILS.putHomeInEditMode()
-#         self.UTILS.scrollHomescreenRight()
-#         time.sleep(1)
-# 
-#         x = self.UTILS.getElements(DOM.Home.app_icon_pages, "Icon pages on homescreen")
-#         _first_icon = x[0].find_element("xpath", "./ol/li[@class='icon']")
-#         self.actions.press(_first_icon).wait(2).release().perform()
-        
-
         
         self.UTILS.logResult("info", "<u><b><i>AFTER</i> EDIT MODE ACTIVATED ...</b></u>")
 
@@ -72,7 +64,7 @@ class test_main(GaiaTestCase):
         self._scrollLeft()
         x = self.UTILS.screenShotOnErr()
         self.UTILS.logResult("info", "Scroll back to home page:", x)
-        self.UTILS.waitForElements(self._page1, "Icon page 1", True, 1, False)
+        self.UTILS.waitForElements(self._page1, "Icon page 1 is still displayed", True, 1, False)
         
 
         #
