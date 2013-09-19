@@ -19,8 +19,6 @@ class test_main(GaiaTestCase):
         GaiaTestCase.setUp(self)
         
         self.UTILS      = UTILS(self)
-        self.Settings   = Settings(self)
-        self.EME        = EverythingMe(self)
         self.actions    = Actions(self.marionette)
         
     def tearDown(self):
