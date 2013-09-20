@@ -551,6 +551,10 @@ TESTS COVERED
   </tr>
 
   <tr>
+    <td  align=center>26586</td><td  align=left>Add some tabs and verify that the Tab indicator displays shows the correct number</td>
+  </tr>
+
+  <tr>
     <td  align=center>26584</td><td  align=left>Add a new Tab from a link in a webpage</td>
   </tr>
 
