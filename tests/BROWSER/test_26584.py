@@ -55,7 +55,7 @@ class test_main(GaiaTestCase):
         #
         # Now open the tabs list and check our tab is there.
         #
-        self.UTILS.TEST(self.Browser.trayCounterIs(2), "Tab tray counter is '2'.", False)
+        self.UTILS.TEST(self.Browser.trayCounterValue() == 2, "Tab tray counter is '2'.", False)
         
         x = self.UTILS.getElement(DOM.Browser.tab_tray_open, "Tab tray open button")
         x.tap()

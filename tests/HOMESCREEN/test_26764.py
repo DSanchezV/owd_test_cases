@@ -48,7 +48,8 @@ class test_main(GaiaTestCase):
         #
         # Add an item to the dock that we can move.
         #
-        if _i1 < 5:        
+        self.UTILS.scrollHomescreenRight()
+        if _i1 < 5:
             x = self.UTILS.getElements(DOM.Home.apps, "Homepage apps")[0]
             _appName = x.get_attribute("aria-label")
             self.UTILS.logResult("info", "Adding app '%s' ..." % _appName)
@@ -72,7 +73,7 @@ class test_main(GaiaTestCase):
         self.UTILS.TEST(boolOK, "Screen will not go into edit mode from main homescreen page.")
 
         #
-        # Try to scroll homescreen to main page while in edit mode.
+        # Try to (forceably) scroll homescreen to main page while in edit mode.
         #
         self.UTILS.putHomeInEditMode()
         x = self.UTILS.getElement((DOM.Home.app_icon_pages[0], DOM.Home.app_icon_pages[1] + "[1]"), 
