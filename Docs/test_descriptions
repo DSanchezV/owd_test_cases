@@ -66,6 +66,7 @@
 26570|Enter a webpage with URL a certificate
 26571|(Unable to get description from https://jirapdi.tid.es/browse/OWD-26571)
 26584|Add a new Tab from a link in a webpage
+26585|Verify that each entry in the Tab list contains screenshot of the page, title and a close button
 26684|View
 26685|Selecting different views (day, week, month)
 26686|Move to next/previous day, week, month

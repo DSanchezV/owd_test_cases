@@ -35,11 +35,7 @@ class test_main(GaiaTestCase):
         # Open the browser app. and search for 'something'.
         #
         self.Browser.launch()
-        x = self.UTILS.getElement(DOM.Browser.url_input, "Search input field")
-        x.send_keys("dilbert cartoons")
-        x = self.UTILS.getElement(DOM.Browser.url_go_button, "'Go' button")
-        x.tap()
-        self.Browser.waitForPageToFinishLoading()
+        self.Browser.searchUsingUrlField("dilbert cartoons")
         
         #
         # Open our URL.

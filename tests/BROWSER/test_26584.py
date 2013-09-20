@@ -35,11 +35,7 @@ class test_main(GaiaTestCase):
         # Open the browser app. and search for 'something'.
         #
         self.Browser.launch()
-        x = self.UTILS.getElement(DOM.Browser.url_input, "Search input field")
-        x.send_keys("dilbert cartoons")
-        x = self.UTILS.getElement(DOM.Browser.url_go_button, "'Go' button")
-        x.tap()
-        self.Browser.waitForPageToFinishLoading()
+        self.Browser.searchUsingUrlField("dilbert cartoons")
         
         #
         # Open our URL.
@@ -59,9 +55,7 @@ class test_main(GaiaTestCase):
         #
         # Now open the tabs list and check our tab is there.
         #
-        x = self.UTILS.getElement(DOM.Browser.tab_tray_counter, "Tab tray counter")
-        _counter = x.text.encode('ascii', 'ignore') #(contains weird characters)
-        self.UTILS.TEST(_counter == "2", "Tab tray counter is '2' (it was '%s')." % _counter, False)
+        self.UTILS.TEST(self.Browser.trayCounterIs(2), "Tab tray counter is '2'.", False)
         
         x = self.UTILS.getElement(DOM.Browser.tab_tray_open, "Tab tray open button")
         x.tap()

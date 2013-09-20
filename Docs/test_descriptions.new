@@ -63,7 +63,10 @@
 26566|(Unable to get description from https://jirapdi.tid.es/browse/OWD-26566)
 26567|(Unable to get description from https://jirapdi.tid.es/browse/OWD-26567)
 26568|(Unable to get description from https://jirapdi.tid.es/browse/OWD-26568)
+26570|Enter a webpage with URL a certificate
 26571|(Unable to get description from https://jirapdi.tid.es/browse/OWD-26571)
+26584|Add a new Tab from a link in a webpage
+26585|Verify that each entry in the Tab list contains screenshot of the page, title and a close button
 26684|View
 26685|Selecting different views (day, week, month)
 26686|Move to next/previous day, week, month
@@ -308,5 +311,3 @@
 27764|Write and send a sms with line break
 27765|Send a new SMS using the search option (in contact list window) in order to select an existing contact
 28100|Verify what happens if the SMS contains text follows by another number (NOT phone number) follows by blank and a valid phone number (e.g.:'Test1 656565678 number')
-26584|Add a new Tab from a link in a webpage
-26570|Enter a webpage with URL a certificate

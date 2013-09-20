@@ -543,6 +543,10 @@ TESTS COVERED
   </tr>
 
   <tr>
+    <td  align=center>26585</td><td  align=left>Verify that each entry in the Tab list contains screenshot of the page, title and a close button</td>
+  </tr>
+
+  <tr>
     <td  align=center>26568</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26568)</td>
   </tr>
 
