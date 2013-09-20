@@ -55,25 +55,35 @@ class test_main(GaiaTestCase):
         #
         # Now open the tabs list and check our tab is there.
         #
-        self.UTILS.TEST(self.Browser.trayCounterValue() == 2, "Tab tray counter is '2'.", False)
-        
         x = self.UTILS.getElement(DOM.Browser.tab_tray_open, "Tab tray open button")
         x.tap()
 
         time.sleep(2)
         self.UTILS.TEST(self.UTILS.waitForNoNetworkActivity(p_timeout=30), "Finished loading page within 30 seconds.", False)
         self.UTILS.switchToFrame(*DOM.Browser.frame_locator)
+        time.sleep(10)
         
         x = self.UTILS.getElements(DOM.Browser.tab_tray_tab_list, "Tab list")
-        _displayed = x[0].find_element("tag name", "span").text.lower()
-        self.UTILS.TEST("dilbert cartoons" in _displayed, 
-                        "The first tab is for the 'dilbert cartoons' search (it was \"%s\")" % _displayed, False)
-
-        _displayed = x[1].find_element("tag name", "span").text.lower()
-        self.UTILS.TEST("dilbert website" in _displayed, 
-                        "The second tab is for the dilbert website (it was \"%s\")" % _displayed, False)
-
+        for i in range(0,len(x)):
+            try:
+                _img = x[i].find_element(*DOM.Browser.tab_tray_tab_item_image)
+            except:
+                _img = False
+            self.UTILS.TEST(_img, "Tab %s has a preview image area." % (i+1), False)
+            self.UTILS.TEST("background-image" in _img.get_attribute("style"), 
+                            "Tab %s has a preview image which actually contains an image." % (i+1), False) 
         
-        x = self.UTILS.screenShotOnErr()
-        self.UTILS.logResult("debug", "Final screenshot:", x)
+            try:
+                _title = x[i].find_element(*DOM.Browser.tab_tray_tab_item_title)
+            except:
+                _title = False
+            self.UTILS.TEST(_title, "Tab %s has a title." % (i+1), False)
+        
+            try:
+                _close = x[i].find_element(*DOM.Browser.tab_tray_tab_item_close)
+            except:
+                _close = False
+            self.UTILS.TEST(_close, "Tab %s has a close button." % (i+1), False)
+        
+        
         

@@ -543,7 +543,15 @@ TESTS COVERED
   </tr>
 
   <tr>
-    <td  align=center>26568</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26568)</td>
+    <td  align=center>26585</td><td  align=left>Verify that each entry in the Tab list contains screenshot of the page, title and a close button</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26568</td><td  align=left>Verify that for an URL you can tap on the address bar and edit that URL to go to a different web site</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26586</td><td  align=left>Add some tabs and verify that the Tab indicator displays shows the correct number</td>
   </tr>
 
   <tr>
@@ -555,11 +563,11 @@ TESTS COVERED
   </tr>
 
   <tr>
-    <td  align=center>26567</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26567)</td>
+    <td  align=center>26567</td><td  align=left>Verify that the user can hide the tabs tray using a gesture or by selecting the icon to close &lt;</td>
   </tr>
 
   <tr>
-    <td  align=center>26571</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26571)</td>
+    <td  align=center>26571</td><td  align=left>Enter a webencoded URL (e.g. http://www.technicalinfo.net/papers/URLEmbeddedAttacks.html )</td>
   </tr>
 
   <tr>
@@ -567,11 +575,15 @@ TESTS COVERED
   </tr>
 
   <tr>
-    <td  align=center>26566</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26566)</td>
+    <td  align=center>26566</td><td  align=left>Verify that the user can hide the tabs tray clicking on the + to add a new tab</td>
   </tr>
 
   <tr>
-    <td  align=center>26565</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26565)</td>
+    <td  align=center>26565</td><td  align=left>Verify that the user can hide the tabs tray by clicking on the (gear icon) settings icon</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26588</td><td  align=left>Close one Tab from the Tab List tapping on X button</td>
   </tr>
 
   <tr>
@@ -683,7 +695,7 @@ TESTS COVERED
   </tr>
 
   <tr>
-    <td  align=center>26561</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26561)</td>
+    <td  align=center>26561</td><td  align=left>Forget this network option</td>
   </tr>
 
   <tr>
@@ -719,7 +731,7 @@ TESTS COVERED
   </tr>
 
   <tr>
-    <td  align=center>26562</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26562)</td>
+    <td  align=center>26562</td><td  align=left>Advanced Settings menu is available</td>
   </tr>
 
   <tr>
@@ -739,11 +751,11 @@ TESTS COVERED
   </tr>
 
   <tr>
-    <td  align=center>26762</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26762)</td>
+    <td  align=center>26762</td><td  align=left>Verify that the user cannot go to landing page from icongrid in edit mode</td>
   </tr>
 
   <tr>
-    <td  align=center>26764</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26764)</td>
+    <td  align=center>26764</td><td  align=left>Verify that the user can not move an icon to the landing page in edit mode</td>
   </tr>
 
   <tr>
@@ -763,11 +775,11 @@ TESTS COVERED
   </tr>
 
   <tr>
-    <td  align=center>26782</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26782)</td>
+    <td  align=center>26782</td><td  align=left>Remove all the categories from ev.me</td>
   </tr>
 
   <tr>
-    <td  align=center>26763</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26763)</td>
+    <td  align=center>26763</td><td  align=left>Verify that the dock could hold up maximum seven apps</td>
   </tr>
 
   <tr>
@@ -775,7 +787,7 @@ TESTS COVERED
   </tr>
 
   <tr>
-    <td  align=center>26785</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26785)</td>
+    <td  align=center>26785</td><td  align=left>Verify that an app launched from ev.me is correclty bookmarked using the star icon available on the bottom bar</td>
   </tr>
 
   <tr>
@@ -795,7 +807,7 @@ TESTS COVERED
   </tr>
 
   <tr>
-    <td  align=center>26766</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26766)</td>
+    <td  align=center>26766</td><td  align=left>Drag an app from dock to the icongrid</td>
   </tr>
 
   <tr>
@@ -803,7 +815,7 @@ TESTS COVERED
   </tr>
 
   <tr>
-    <td  align=center>26765</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26765)</td>
+    <td  align=center>26765</td><td  align=left>Drag an app from the icongrid to dock</td>
   </tr>
 
   <tr>
@@ -811,7 +823,7 @@ TESTS COVERED
   </tr>
 
   <tr>
-    <td  align=center>26772</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26772)</td>
+    <td  align=center>26772</td><td  align=left>Verify that if the user tries to install an application already installed, he is notified about it</td>
   </tr>
 
   <tr>
@@ -823,11 +835,11 @@ TESTS COVERED
   </tr>
 
   <tr>
-    <td  align=center>26768</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26768)</td>
+    <td  align=center>26768</td><td  align=left>Verify that there is an icon to launch the browser application</td>
   </tr>
 
   <tr>
-    <td  align=center>26761</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26761)</td>
+    <td  align=center>26761</td><td  align=left>Users can navigate to the landing page from the icongrid</td>
   </tr>
 
   <tr>
