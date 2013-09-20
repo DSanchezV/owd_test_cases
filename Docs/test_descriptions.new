@@ -1,5 +1,7 @@
 23887|Accept creating a new contact, editing some other fields
 26317|Send an email to a contact from the contact details (Contact with multiple emails)
+26318|Launch homescreen, unlock keypad - verify the homescreen is shown
+26319|Moving an application around the homescreen - verify the application could be moved to a new location
 26323|Add new contact filling all the fields - verify the contact is added with the correct values for each field
 26324|Edit a contact changing the name and the phone number - verify that the values modified in the contact appear when viewing the updated contact
 26325|Send an sms from a contact detail - Verify the contact receives the SMS
@@ -80,6 +82,7 @@
 26765|(Unable to get description from https://jirapdi.tid.es/browse/OWD-26765)
 26766|(Unable to get description from https://jirapdi.tid.es/browse/OWD-26766)
 26768|(Unable to get description from https://jirapdi.tid.es/browse/OWD-26768)
+26769|Verify that from any page of the Homescreen (not Lock screen) if you press Home Button you go to Landing Page'
 26770|launch the everything.me page and click on the first category displayed
 26771|Launch a intallation doing a long-tap on any app shown by everything.me and press Yes button
 26772|(Unable to get description from https://jirapdi.tid.es/browse/OWD-26772)
@@ -305,6 +308,5 @@
 27764|Write and send a sms with line break
 27765|Send a new SMS using the search option (in contact list window) in order to select an existing contact
 28100|Verify what happens if the SMS contains text follows by another number (NOT phone number) follows by blank and a valid phone number (e.g.:'Test1 656565678 number')
-26769|Verify that from any page of the Homescreen (not Lock screen) if you press Home Button you go to Landing Page'
-26319|Moving an application around the homescreen - verify the application could be moved to a new location
-26318|Launch homescreen, unlock keypad - verify the homescreen is shown
+26584|Add a new Tab from a link in a webpage
+26570|Enter a webpage with URL a certificate

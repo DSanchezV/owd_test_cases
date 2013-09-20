@@ -547,6 +547,10 @@ TESTS COVERED
   </tr>
 
   <tr>
+    <td  align=center>26584</td><td  align=left>Add a new Tab from a link in a webpage</td>
+  </tr>
+
+  <tr>
     <td  align=center>26332</td><td  align=left>Load a website via Wifi - verify the site loads in the browser correctly</td>
   </tr>
 
@@ -556,6 +560,10 @@ TESTS COVERED
 
   <tr>
     <td  align=center>26571</td><td  align=left>(Unable to get description from https://jirapdi.tid.es/browse/OWD-26571)</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26570</td><td  align=left>Enter a webpage with URL a certificate</td>
   </tr>
 
   <tr>
