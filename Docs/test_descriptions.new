@@ -57,10 +57,18 @@
 26553|Receiving SMS during a Wi-Fi session
 26556|Lock/unlock the device during a Wi-Fi session
 26560|Connected Network Details Dialog
+26561|Forget this network option
+26562|Advanced Settings menu is available
+26565|Verify that the user can hide the tabs tray by clicking on the (gear icon) settings icon
+26566|Verify that the user can hide the tabs tray clicking on the + to add a new tab
+26567|Verify that the user can hide the tabs tray using a gesture or by selecting the icon to close &lt;
+26568|Verify that for an URL you can tap on the address bar and edit that URL to go to a different web site
 26570|Enter a webpage with URL a certificate
+26571|Enter a webencoded URL (e.g. http://www.technicalinfo.net/papers/URLEmbeddedAttacks.html )
 26584|Add a new Tab from a link in a webpage
 26585|Verify that each entry in the Tab list contains screenshot of the page, title and a close button
 26586|Add some tabs and verify that the Tab indicator displays shows the correct number
+26588|Close one Tab from the Tab List tapping on X button
 26684|View
 26685|Selecting different views (day, week, month)
 26686|Move to next/previous day, week, month
@@ -72,9 +80,17 @@
 26731|Delete a video just recorded
 26741|Email containing a URL
 26750|Basic: Deleting of a e-mail in Inbox
+26761|Users can navigate to the landing page from the icongrid
+26762|Verify that the user cannot go to landing page from icongrid in edit mode
+26763|Verify that the dock could hold up maximum seven apps
+26764|Verify that the user can not move an icon to the landing page in edit mode
+26765|Drag an app from the icongrid to dock
+26766|Drag an app from dock to the icongrid
+26768|Verify that there is an icon to launch the browser application
 26769|Verify that from any page of the Homescreen (not Lock screen) if you press Home Button you go to Landing Page'
 26770|launch the everything.me page and click on the first category displayed
 26771|Launch a intallation doing a long-tap on any app shown by everything.me and press Yes button
+26772|Verify that if the user tries to install an application already installed, he is notified about it
 26773|Verify that the user can uninstall a everything.me app through the grid edit mode
 26774|Verify that user can click on 'Add more categories' in everything.me grid so I am shown again the list and can add more categories
 26775|Verify that user can click on any app shown by everything.me and launch the application
@@ -84,7 +100,9 @@
 26779|Verify that if no connection available when selecting a category in everything.me the user will be notified about the need to have a network connection to use this functionality
 26780|Verify that when an app is launched from everything.me a bottom bar is shown so that the user can go back, go forward, refresh, bookmark and close the bottom bar
 26781|Add and remove categories to everything.me grid
+26782|Remove all the categories from ev.me
 26783|Add all the categories
+26785|Verify that an app launched from ev.me is correclty bookmarked using the star icon available on the bottom bar
 26788|Tap in a log entry corresponding to an outgoing call with a contact with photo linked to perform a call to this number
 26791|Tap in a log entry corresponding to an incoming call without a contact linked to add the number to an existing contact
 26797|Make a call by selecting a contact
@@ -295,21 +313,5 @@
 27764|Write and send a sms with line break
 27765|Send a new SMS using the search option (in contact list window) in order to select an existing contact
 28100|Verify what happens if the SMS contains text follows by another number (NOT phone number) follows by blank and a valid phone number (e.g.:'Test1 656565678 number')
-26568|Verify that for an URL you can tap on the address bar and edit that URL to go to a different web site
-26567|Verify that the user can hide the tabs tray using a gesture or by selecting the icon to close &lt;
-26571|Enter a webencoded URL (e.g. http://www.technicalinfo.net/papers/URLEmbeddedAttacks.html )
-26566|Verify that the user can hide the tabs tray clicking on the + to add a new tab
-26565|Verify that the user can hide the tabs tray by clicking on the (gear icon) settings icon
-26588|Close one Tab from the Tab List tapping on X button
-26561|Forget this network option
-26562|Advanced Settings menu is available
-26762|Verify that the user cannot go to landing page from icongrid in edit mode
-26764|Verify that the user can not move an icon to the landing page in edit mode
-26782|Remove all the categories from ev.me
-26763|Verify that the dock could hold up maximum seven apps
-26785|Verify that an app launched from ev.me is correclty bookmarked using the star icon available on the bottom bar
-26766|Drag an app from dock to the icongrid
-26765|Drag an app from the icongrid to dock
-26772|Verify that if the user tries to install an application already installed, he is notified about it
-26768|Verify that there is an icon to launch the browser application
-26761|Users can navigate to the landing page from the icongrid
+26589|Close the current tab
+26590|Verify that if there is only one tab the end-user is not able to close the tab

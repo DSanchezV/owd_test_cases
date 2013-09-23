@@ -559,6 +559,10 @@ TESTS COVERED
   </tr>
 
   <tr>
+    <td  align=center>26589</td><td  align=left>Close the current tab</td>
+  </tr>
+
+  <tr>
     <td  align=center>26332</td><td  align=left>Load a website via Wifi - verify the site loads in the browser correctly</td>
   </tr>
 
@@ -572,6 +576,10 @@ TESTS COVERED
 
   <tr>
     <td  align=center>26570</td><td  align=left>Enter a webpage with URL a certificate</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26590</td><td  align=left>Verify that if there is only one tab the end-user is not able to close the tab</td>
   </tr>
 
   <tr>

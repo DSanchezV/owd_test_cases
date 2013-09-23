@@ -39,9 +39,6 @@ class test_main(GaiaTestCase):
         
         self.Browser.addNewTab()                
         self.Browser.searchUsingUrlField("search page two")
- 
-        self.Browser.addNewTab()
-        self.Browser.searchUsingUrlField("search page three")
         
         _t = self.Browser.getTabTitle(2)
         self.UTILS.logResult("info", "Title of tab to be closed: \"%s\"." % _t)

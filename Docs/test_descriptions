@@ -69,6 +69,8 @@
 26585|Verify that each entry in the Tab list contains screenshot of the page, title and a close button
 26586|Add some tabs and verify that the Tab indicator displays shows the correct number
 26588|Close one Tab from the Tab List tapping on X button
+26589|Close the current tab
+26590|Verify that if there is only one tab the end-user is not able to close the tab
 26684|View
 26685|Selecting different views (day, week, month)
 26686|Move to next/previous day, week, month
