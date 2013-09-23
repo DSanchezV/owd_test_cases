@@ -40,22 +40,23 @@ class test_main(GaiaTestCase):
         #
         # Now open the tabs list and check our tab is there.
         #
-        self.UTILS.TEST(self.Browser.trayCounterValue() == 1, "Tab tray counter is '1'.", False)
-        
+        x = self.Browser.trayCounterValue()
+        self.UTILS.TEST(x == "1", "Tab tray counter is '1' (it was '%s')." % x, False)
+
         self.Browser.addNewTab()
                 
         self.Browser.searchUsingUrlField("two")
-        self.UTILS.TEST(self.Browser.trayCounterValue() == 2, "Tab tray counter is '2'.", False)
+        self.UTILS.TEST(self.Browser.trayCounterValue() == "2", "Tab tray counter is '2'.", False)
 
         self.Browser.addNewTab()
         
         self.Browser.searchUsingUrlField("three")
-        self.UTILS.TEST(self.Browser.trayCounterValue() == 3, "Tab tray counter is '3'.", False)
+        self.UTILS.TEST(self.Browser.trayCounterValue() == "3", "Tab tray counter is '3'.", False)
 
         self.Browser.addNewTab()
         
         self.Browser.searchUsingUrlField("four")
-        self.UTILS.TEST(self.Browser.trayCounterValue() == 4, "Tab tray counter is '4'.", False)
+        self.UTILS.TEST(self.Browser.trayCounterValue() == "4", "Tab tray counter is '4'.", False)
 
         
         

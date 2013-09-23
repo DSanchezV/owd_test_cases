@@ -64,7 +64,7 @@ class test_main(GaiaTestCase):
         self._scrollLeft()
         x = self.UTILS.screenShotOnErr()
         self.UTILS.logResult("info", "Scroll back to home page:", x)
-        self.UTILS.waitForElements(self._page1, "Icon page 1 is still displayed", True, 1, False)
+        self.UTILS.waitForElements(self._page1, "Icon page 1 is still displayed (main homescreen not displayed)", True, 1, False)
         
 
         #
