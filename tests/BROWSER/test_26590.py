@@ -35,24 +35,10 @@ class test_main(GaiaTestCase):
         # Open the browser app. and search for 'something'.
         #
         self.Browser.launch()
-        self.Browser.searchUsingUrlField("search page one")
         
-        self.Browser.addNewTab()                
-        self.Browser.searchUsingUrlField("search page two")
- 
-        self.Browser.addNewTab()
-        self.Browser.searchUsingUrlField("search page three")
+        self.Browser.closeTab(1)
         
-        _t = self.Browser.getTabTitle(2)
-        self.UTILS.logResult("info", "Title of tab to be closed: \"%s\"." % _t)
-        self.UTILS.logResult("info", "Number of tab with this title: \"%s\"." % (self.Browser.getTabNumber(_t)+1))
-        
-        self.Browser.closeTab(2)
-        
-        self.Browser.openTab(1)
-        
-        self.UTILS.TEST(not self.Browser.getTabNumber(_t), "Tab no longer exists with title \"%s\"." % _t)
-
+        self.UTILS.waitForNotElements(DOM.Browser.tab_tray_tab_list, "Tab list")
         
 
         
