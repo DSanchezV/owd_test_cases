@@ -5,8 +5,6 @@
 CURRDIR=$(pwd)
 THISDIR=$(dirname $0)
 
-$THISDIR/refresh_test_descriptions.sh Y
-
 cat ./README.md | while read line
 do
 	x=$(echo $line | grep "<!--testcoverage-->")
