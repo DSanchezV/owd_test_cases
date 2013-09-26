@@ -33,6 +33,8 @@ class test_main(GaiaTestCase):
         # Open the browser app. and search for 'something'.
         #
         self.Browser.launch()
+        
+        self.UTILS.switchToFrame(*DOM.Browser.frame_locator)
         x = self.UTILS.getElement(DOM.Browser.url_input, "Search input field")
         x.tap()
 
