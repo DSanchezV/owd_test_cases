@@ -52,7 +52,7 @@ class test_main(GaiaTestCase):
 
         self.UTILS.waitForElements(DOM.Browser.tab_tray_screen, "Tab screen", True, 2, False)
         
-        self.marionette.execute_script("document.getElementById('%s').click()" % DOM.Browser.tab_tray_close_btn[1])
+        self.marionette.execute_script("document.getElementById('%s').click()" % DOM.Browser.awesome_cancel_btn[1])
         
         self.UTILS.waitForNotElements(DOM.Browser.tab_tray_screen, "Tab screen", True, 2, False)
         self.UTILS.waitForElements(DOM.Browser.tab_screen, "Main tab")
