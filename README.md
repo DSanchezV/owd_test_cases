@@ -539,6 +539,10 @@ TESTS COVERED
   </tr>
 
   <tr>
+    <td  align=center>26614</td><td  align=left>Verify that the AwesomeScreen initially displays tabs with Top Sites, Bookmarks, and History.</td>
+  </tr>
+
+  <tr>
     <td  align=center>26333</td><td  align=left>Load a website via Cellular Data - verify the site loads in the browser correctly</td>
   </tr>
 
@@ -575,6 +579,10 @@ TESTS COVERED
   </tr>
 
   <tr>
+    <td  align=center>26610</td><td  align=left>Verify that If the user clears all the text in the AddressBar, the AwesomeScreen tabs are displayed once more</td>
+  </tr>
+
+  <tr>
     <td  align=center>26570</td><td  align=left>Enter a webpage with URL a certificate</td>
   </tr>
 
@@ -583,11 +591,23 @@ TESTS COVERED
   </tr>
 
   <tr>
+    <td  align=center>26606</td><td  align=left>[Browser] Verify that each entry contains: Site Favicon, Page Title and Page URL</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26608</td><td  align=left>[Browser] Verify that the user can tap on the Close Button "X" to exit theAwesomeScreen and stay on the current site.</td>
+  </tr>
+
+  <tr>
     <td  align=center>26566</td><td  align=left>Verify that the user can hide the tabs tray clicking on the + to add a new tab</td>
   </tr>
 
   <tr>
     <td  align=center>26565</td><td  align=left>Verify that the user can hide the tabs tray by clicking on the (gear icon) settings icon</td>
+  </tr>
+
+  <tr>
+    <td  align=center>26604</td><td  align=left>[Browser] Verify that tapping on an entry closes the AwesomeScreen and takes the user to the selected page.</td>
   </tr>
 
   <tr>

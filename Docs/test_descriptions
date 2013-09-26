@@ -71,6 +71,11 @@
 26588|Close one Tab from the Tab List tapping on X button
 26589|Close the current tab
 26590|Verify that if there is only one tab the end-user is not able to close the tab
+26604|[Browser] Verify that tapping on an entry closes the AwesomeScreen and takes the user to the selected page.
+26606|[Browser] Verify that each entry contains: Site Favicon, Page Title and Page URL
+26608|[Browser] Verify that the user can tap on the Close Button "X" to exit theAwesomeScreen and stay on the current site.
+26610|Verify that If the user clears all the text in the AddressBar, the AwesomeScreen tabs are displayed once more
+26614|Verify that the AwesomeScreen initially displays tabs with Top Sites, Bookmarks, and History.
 26684|View
 26685|Selecting different views (day, week, month)
 26686|Move to next/previous day, week, month

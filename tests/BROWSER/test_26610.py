@@ -33,26 +33,18 @@ class test_main(GaiaTestCase):
         # Open the browser app. and search for 'something'.
         #
         self.Browser.launch()
+        self.Browser.open_url("www.google.com")
+        
+        x = self.UTILS.screenShotOnErr()
+        self.UTILS.logResult("info", "Screenshot of web page:", x)
         
         self.UTILS.switchToFrame(*DOM.Browser.frame_locator)
+        
         x = self.UTILS.getElement(DOM.Browser.url_input, "Search input field")
-        x.tap()
+        x.clear()
 
-        self.UTILS.waitForElements(DOM.Browser.awesome_cancel_btn, "Awesome screen cancel button")
+        x = self.UTILS.waitForElements(DOM.Browser.awesome_cancel_btn, "Awesome screen")
 
-        x.send_keys("weather")
-        x = self.UTILS.getElement(DOM.Browser.url_go_button, "'Go' button")
-        x.tap()
-        self.Browser.waitForPageToFinishLoading()
-        
-        self.UTILS.switchToFrame(*DOM.Browser.browser_page_frame, p_viaRootFrame=False)
-
-        x = self.UTILS.getElements(DOM.Browser.search_result_links, "Search results")[0]
-        x.tap()
-
-        self.UTILS.switchToFrame(*DOM.Browser.frame_locator)
-        self.UTILS.waitForNotElements(DOM.Browser.awesome_cancel_btn, "Awesome screen cancel button")
-        
-        
-        
+        x = self.UTILS.screenShotOnErr()
+        self.UTILS.logResult("info", "Screenshot after clearing the text in the address bar:", x)
         
