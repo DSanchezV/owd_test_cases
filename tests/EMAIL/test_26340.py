@@ -11,7 +11,7 @@ from OWDTestToolkit import *
 #
 from tests.EMAIL.shared_test_functions import EMAILING
 
-class test_19406(EMAILING.main):
+class test_main(EMAILING.main):
     
     _RESTART_DEVICE = True
     
